@@ -1,0 +1,31 @@
+body{
+    background-color:#f4f4f4;
+}
+.container{
+    padding:3em;
+    margin-top:2em;
+    background-color:#fff;;
+}
+@media(min-width:768px){
+    .desk{
+        display:flex;
+        overflow:auto;
+    }
+    .slot+.slot{
+        margin-left:.5em;
+    }
+}
+.desk .slot{
+    flex-basis:20%;
+    border:1px solid #ccc8;
+    background-color:#ccc2;
+    border-radius:.25em;
+    padding:1em;
+    margin-bottom:1em;
+    white-space:nowrap;
+}
+.slot ul{
+    list-style-type:none;
+    margin:0;
+    padding:0
+}
